@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+background-color: bisque;
+font-size: 20px;
+}
+
+h1{
+color: blue;
+}
+
+h2{
+color: chartreuse;
+}
+
+p{
+text-align: justify;
+}

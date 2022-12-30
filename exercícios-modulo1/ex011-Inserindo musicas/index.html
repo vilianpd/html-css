@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo imagens / imagens dinâmicas</title>
+    <link rel="shortcut icon" href="imagens/nabrasaico.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    
+    <!--<audio src="musicas/Doja Cat - Say So.mp3" controls autoplay></audio>  esta maneira não funciona em todos os browsers -->
+
+    <audio preload="auto" autoplay controls loop>
+        <source src="musicas/Doja Cat - Say So.mp3" type="audio/mpeg">
+        <source src="musicas/Doja Cat - Say So.egg" type="audio/egg">
+        <source src="musicas/Doja Cat - Say So.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não tem suporte a áudio</p>
+    </audio>
+
+</body>
+</html>

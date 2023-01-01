@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas G</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num{
+            text-align: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia de tabelas grandes
+    table
+      Thead
+        tr td th
+      Tbody
+        tr td th
+      Tfoot
+        tr td th
+-->
+<table>
+    <thead>
+        <th>Estado</th>
+        <th>População</th>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td class="num">123456</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">123456</td>
+        </tr>
+        <tr>
+            <td>rio de janeiro</td>
+            <td class="num">123456</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total de habitantes</th>
+            <td class="num">0000</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>

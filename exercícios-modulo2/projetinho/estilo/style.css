@@ -54,6 +54,9 @@ header > h1 {
     margin-bottom: 10px;
     font-size: 3em;
 }
+nav {
+    text-align: center;
+}
 main{
     min-width: 300px;
     max-width: 900px;

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p><label for="inome">Nome</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+        <!--
+            colocar o comando label para linkar a palavra nome com o id do input, deve-se sempre colocar o ID do imput no FOR
+            usando method post a informação não vai aparecer na url de envio
+            caminho para olhar os dados enviados
+            inspecionar elementos - network - fazer o envio dos dados - clicar no arquivo para onde estão sendo enviados os dados - e clicar em payload
+        -->
+
+    </form>
+    
+</body>
+</html>
